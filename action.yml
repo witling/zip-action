@@ -1,0 +1,15 @@
+name: 'zip'
+description: 'Github Action for zipping files'
+author: 'witling'
+inputs:
+  include:
+    description: 'list of files to include'
+    required: true
+  path:
+    description: 'path to the output zip'
+outputs:
+  path:
+    description: 'path '
+runs:
+  using: 'node12'
+  main: 'lib/main.js'

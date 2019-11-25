@@ -1,0 +1,29 @@
+{
+  "name": "zip-action",
+  "version": "1.0.0",
+  "description": "Github Action for zipping files",
+  "main": "lib/main.js",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@types/node": "^12.12.11",
+    "archiver": "^3.1.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/witling/zip-action.git"
+  },
+  "keywords": [
+    "zip"
+  ],
+  "author": "witling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/witling/zip-action/issues"
+  },
+  "homepage": "https://github.com/witling/zip-action#readme"
+}
