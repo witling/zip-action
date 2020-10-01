@@ -4,7 +4,7 @@
   "description": "Github Action for zipping files",
   "main": "lib/main.js",
   "dependencies": {
-    "@actions/core": "^1.2.0",
+    "@actions/core": "^1.2.6",
     "@types/node": "^12.12.11",
     "archiver": "^3.1.1",
     "path": "^0.12.7"
